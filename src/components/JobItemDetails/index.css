@@ -1,0 +1,376 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.main-product-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+}
+.product-item-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success-job-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #202020;
+  margin-bottom: 25px;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 25px;
+  width: 90%;
+}
+.product-details {
+  display: flex;
+}
+.thumbnail {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-details {
+    margin-top: 16px;
+  }
+  .success-job-container {
+    margin-top: 50px;
+    padding: 25px;
+  }
+  .thumbnail {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  justify-content: space-between;
+}
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+}
+.star {
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+  color: #fbbf24;
+}
+
+@media screen and (min-width: 768px) {
+  .title-rating-container {
+    height: 58px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .rating {
+    font-size: 15px;
+  }
+  .star {
+    height: 18px;
+    width: 18px;
+  }
+}
+.location-salary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #b6c5ff;
+  margin-top: 14px;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-loc-bag {
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.icon-loc-bag-desc {
+  color: #f1f5f9;
+  font-size: 12px;
+  margin-right: 16px;
+}
+
+.salary-lpa {
+  color: #f1f5f9;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .location-salary-container {
+    margin-top: 20px;
+  }
+  .icon-loc-bag {
+    font-size: 20px;
+  }
+  .icon-loc-bag-desc {
+    font-size: 13px;
+  }
+  .salary-lpa {
+    font-size: 16px;
+  }
+}
+.discreption-container {
+  display: flex;
+  flex-direction: column;
+  color: #f1f5f9;
+  margin-top: 15px;
+}
+.discreption-link-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.link-visit {
+  text-decoration: none;
+  color: #6366f1;
+  font-size: 14px;
+}
+.desc-title {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #f1f5f9;
+}
+.desc-para {
+  font-size: 12px;
+  color: #f1f5f9;
+  line-height: 1.7;
+}
+
+@media screen and (min-width: 768px) {
+  .desc-title {
+    font-size: 22px;
+  }
+  .desc-para {
+    font-size: 15px;
+  }
+  .link-visit {
+    font-size: 16px;
+  }
+}
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+.skills-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #f1f5f9;
+}
+.skills-list-container {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-item-container {
+  display: flex;
+  align-items: center;
+  margin: 16px 0px;
+  width: 150px;
+  flex-grow: 1;
+}
+.skill-item-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.skill-item-name {
+  color: #f1f5f9;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .skills-container {
+    margin: 25px 0px;
+  }
+  .skills-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .skill-item-container {
+    width: 200px;
+  }
+  .skill-item-img {
+    height: 35px;
+    width: 35px;
+    margin-right: 15px;
+  }
+  .skill-item-name {
+    font-size: 15px;
+  }
+}
+.life-office-container {
+  display: flex;
+  flex-direction: column;
+}
+.life-office-description {
+  margin-bottom: 12px;
+}
+.life-office-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .life-office-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .life-office-description {
+    width: 60%;
+  }
+  .life-office-img {
+    width: 35%;
+    height: 200px;
+    margin: 40px 0px 20px 0px;
+  }
+}
+
+.similar-jobs-container {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.similar-jobs-title {
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .similar-jobs-container {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+.similar-list-container {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-error-view-container {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 70%;
+    padding-bottom: 0;
+  }
+}
+
+.products-failure-img {
+  width: 300px;
+  height: 220px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-img {
+    width: 450px;
+    height: 350px;
+  }
+}
+
+.product-failure-heading-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-failure-heading-text {
+    font-size: 30px;
+  }
+}
+
+.products-failure-description {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 90%;
+  font-weight: 500;
+  max-width: 288px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-description {
+    font-size: 13px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+
+.retry-jobs {
+  background-color: #6366f1;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  height: 35px;
+  width: 70px;
+}

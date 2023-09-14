@@ -1,0 +1,15 @@
+.product-sections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  background-color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .product-sections {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

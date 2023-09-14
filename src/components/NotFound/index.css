@@ -1,0 +1,41 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+}
+.not-found-img {
+  width: 280px;
+}
+.not-found-heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 25px;
+}
+.not-found-para {
+  color: #b6c5ff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  width: 250px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    width: 400px;
+  }
+  .not-found-heading {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .not-found-para {
+    font-size: 14px;
+    width: 500px;
+    margin-top: 16px;
+  }
+}

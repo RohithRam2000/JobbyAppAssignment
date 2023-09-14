@@ -1,0 +1,159 @@
+/* Write your CSS here */
+.similar-list-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #202020;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .similar-list-item {
+    width: 250px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+  }
+}
+
+.thumbnail-sj {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-sj {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+}
+
+.title-rating-container-sj {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  justify-content: space-between;
+}
+
+.title-sj {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.product-details-sj {
+  display: flex;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .product-details-sj {
+    margin-top: 5px;
+  }
+}
+
+.rating-container-sj {
+  display: flex;
+  align-items: center;
+}
+
+.rating-sj {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.star-sj {
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+  color: #fbbf24;
+}
+
+.product-item-link-sj {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .title-rating-container-sj {
+    height: 48px;
+  }
+  .title-sj {
+    font-size: 16px;
+  }
+  .rating-sj {
+    font-size: 15px;
+  }
+  .star-sj {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.location-salary-container-sj {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  margin-top: 14px;
+}
+
+.location-container-sj {
+  display: flex;
+  align-items: center;
+}
+
+.icon-loc-bag-sj {
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.icon-loc-bag-desc-sj {
+  color: #f1f5f9;
+  font-size: 12px;
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .location-salary-container-sj {
+    margin-top: 20px;
+  }
+  .icon-loc-bag-sj {
+    font-size: 20px;
+  }
+  .icon-loc-bag-desc-sj {
+    font-size: 13px;
+  }
+}
+
+.discreption-container-sj {
+  display: flex;
+  flex-direction: column;
+  color: #f1f5f9;
+  margin-top: 15px;
+}
+.desc-title-sj {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.desc-para-sj {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .desc-title-sj {
+    font-size: 20px;
+  }
+  .desc-para-sj {
+    font-size: 13px;
+    line-height: 1.9;
+  }
+}
